@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TimerComponent } from './timer/timer.component';
+import { TimersComponent } from './timers/timers.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TimerComponent
+    TimerComponent,
+    TimersComponent
   ],
   imports: [
     BrowserModule

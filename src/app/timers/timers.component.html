@@ -2,11 +2,11 @@
   <div class="col-sm-6 mb-4">
 
     <h3>Bootstrap Pomodoro</h3>
-    <h1 class="text-danger">25:00</h1>
+    <h1 class="text-danger">{{ timer.duration }}</h1>
 
     <div class="btn-group">
 
-      <button type="button" class="btn btn-success">start</button>
+      <button type="button" class="btn btn-success" (click)="startTimer()">start</button>
       <button type="button" class="btn btn-warning">pause</button>
       <button type="button" class="btn btn-danger">reset</button>
 
